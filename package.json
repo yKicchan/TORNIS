@@ -14,8 +14,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "react-use-tornis": "^0.1.4",
     "recoil": "^0.0.7",
     "reset-css": "^5.0.1",
+    "tornis": "^0.3.2",
     "typescript": "~3.7.2"
   },
   "scripts": {

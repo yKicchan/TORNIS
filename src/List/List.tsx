@@ -1,4 +1,8 @@
 import React from "react"
+import { useRecoilValue } from "recoil"
+import { velocityAtom } from "../tornis"
+import Item from './Item/Item'
+
 import "./List.scss"
 
 const List = ({ length }: { length: number }) => {
@@ -6,12 +10,18 @@ const List = ({ length }: { length: number }) => {
   for (let i = 0; i < length; i++) {
     items.push(i)
   }
+
+  const velocity = useRecoilValue(velocityAtom)
+
   return (
-    <ul>
-      {items.map((item) => (
-        <li key={item}>{item}</li>
-      ))}
-    </ul>
+    <>
+      <div className="velocity">
+        {velocity.y}
+      </div>
+      <ul>
+        {items.map((item) => (<Item key={item} idx={item}></Item>))}
+      </ul>
+    </>
   )
 }
 

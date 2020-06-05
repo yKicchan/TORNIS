@@ -8963,6 +8963,13 @@ react-scripts@3.4.1:
   optionalDependencies:
     fsevents "2.1.2"
 
+react-use-tornis@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/react-use-tornis/-/react-use-tornis-0.1.4.tgz#6cb69cc096d122c9aae46d7ab56636f02a45d388"
+  integrity sha512-y+GIJEWzjjfo6oe3GMs/Z6Dkh4XzKFQPWw/dw/5NCpVAm6BCyToG6pa2qWJYNrAF41t6acXLmNVKype06FEKdQ==
+  dependencies:
+    tornis "^0.1.4"
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
@@ -10440,6 +10447,11 @@ toidentifier@1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+
+tornis@^0.1.4:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/tornis/-/tornis-0.1.6.tgz#bf7dc1e353521f1c9b0b7780590f127f339b0ca0"
+  integrity sha512-y966IJybxHYBE0ppRAeRjOfSRjQD3UI7U2XG3BsfWGZe3XGek9eDb4IPVqjYdYhrGuMNb7G31HwYvFSYjiwT0Q==
 
 tornis@^0.3.2:
   version "0.3.2"
